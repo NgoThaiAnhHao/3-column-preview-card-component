@@ -155,6 +155,29 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  html {
+    font-size: 8px;
+  }
+
+  .cards {
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+
+  .card--sedans {
+    border-radius: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+
+  .card--luxury {
+    border-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}
+
 @media (max-width: 375px) {
   html {
     font-size: 8px;
